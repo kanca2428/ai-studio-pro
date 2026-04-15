@@ -1,2 +1,6 @@
-# ai-studio-pro
-MiniMax M2.7 ile AI Studio Pro
+# AI Studio Pro
+
+MiniMax M2.7 entegrasyonlu yapay zeka stüdyosu.
+
+## Kurulum
+
