@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #1a1a2e; color: #fff; }
+.app-container { display: flex; min-height: 100vh; }
+.sidebar { width: 250px; background: #16213e; padding: 20px; }
+.sidebar h2 { color: #00d4ff; margin-bottom: 30px; }
+.sidebar nav a { display: block; padding: 12px; color: #fff; text-decoration: none; margin-bottom: 8px; border-radius: 8px; }
+.sidebar nav a:hover { background: #0f3460; }
+.main-content { flex: 1; padding: 40px; }
+.dashboard h1 { font-size: 2.5em; margin-bottom: 10px; }
+.dashboard p { color: #aaa; margin-bottom: 40px; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px; }
+.stat-card { background: #16213e; padding: 25px; border-radius: 12px; text-align: center; }
+.stat-card h3 { color: #aaa; font-size: 0.9em; margin-bottom: 10px; }
+.stat-card p { font-size: 2.5em; font-weight: bold; color: #00d4ff; }
+.btn-primary { background: #00d4ff; color: #1a1a2e; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block; }
+.chat-container { max-width: 800px; margin: 0 auto; }
+.chat-container h2 { margin-bottom: 20px; }
+.messages { height: 400px; overflow-y: auto; background: #16213e; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.message { margin-bottom: 15px; padding: 10px; border-radius: 8px; }
+.message.user { background: #0f3460; }
+.message.assistant { background: #1e5f74; }
+.message strong { color: #00d4ff; display: block; margin-bottom: 5px; }
+.loading { color: #00d4ff; }
+.chat-input { display: flex; gap: 10px; }
+.chat-input input { flex: 1; padding: 15px; border-radius: 8px; border: none; background: #16213e; color: #fff; }
+.chat-input button { padding: 15px 30px; background: #00d4ff; color: #1a1a2e; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+.chat-input button:disabled { opacity: 0.5; }
+.login-container { max-width: 400px; margin: 100px auto; background: #16213e; padding: 40px; border-radius: 12px; }
+.login-container h2 { text-align: center; margin-bottom: 30px; }
+.login-container input { width: 100%; padding: 15px; margin-bottom: 15px; border-radius: 8px; border: none; background: #1a1a2e; color: #fff; }
+.login-container button { width: 100%; padding: 15px; background: #00d4ff; color: #1a1a2e; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
